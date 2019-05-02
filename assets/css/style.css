@@ -294,4 +294,23 @@ row:after {
        top: 13px;
     }
 
+    .column {
+        width: 100%;
+    }
+
+    .row {
+        max-height: 570px;
+        overflow: auto;
+    }
+
+    .port-item {
+        height: 200px;
+        width: 300px;
+        margin: 0px;
+    }
+
+    .portfolio-photos {
+        position: relative;
+        left: 120px;
+    }
 }
