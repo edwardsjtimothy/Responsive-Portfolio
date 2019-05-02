@@ -190,9 +190,6 @@ row:after {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
-.push {
-    margin:20px;
-}
 
 @media screen and (max-width: 980px) {
     body {
@@ -211,6 +208,14 @@ row:after {
 
     .column {
         width: 49%;
+    }
+
+    .portfolio-photos {
+        width: 300px;
+    }
+
+    .photo-banner {
+        width: 260px;
     }
 
 }
