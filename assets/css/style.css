@@ -234,7 +234,6 @@ row:after {
     .container {
         max-width: 710px;
         margin-left: 10px;
-        height: 730px;
         overflow: hidden;
     }
 
@@ -249,10 +248,6 @@ row:after {
     .column {
         width: 45%;
         display: inline-block;
-    }
-
-    .row {
-        /* text-align: center; */
     }
 }
 
