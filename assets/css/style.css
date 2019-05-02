@@ -154,7 +154,13 @@ input[type=submit]:hover {
     float: left;
     width: 35%;
     height: 220px;
+    border: 1px solid black;
 }
+
+/* .row {
+  overflow-x:auto;
+  overflow-y: auto;
+} */
 
 
 row:after {
@@ -228,6 +234,8 @@ row:after {
     .container {
         max-width: 710px;
         margin-left: 10px;
+        height: 730px;
+        overflow: hidden;
     }
 
     #name {
@@ -236,6 +244,15 @@ row:after {
 
     .con-par {
         margin-right: 220px;
+    }
+
+    .column {
+        width: 45%;
+        display: inline-block;
+    }
+
+    .row {
+        /* text-align: center; */
     }
 }
 
