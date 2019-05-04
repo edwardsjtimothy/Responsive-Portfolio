@@ -154,13 +154,7 @@ input[type=submit]:hover {
     float: left;
     width: 35%;
     height: 220px;
-    border: 1px solid black;
 }
-
-/* .row {
-  overflow-x:auto;
-  overflow-y: auto;
-} */
 
 
 row:after {
@@ -310,6 +304,11 @@ row:after {
     }
 
     .portfolio-photos {
+        position: relative;
+        left: 120px;
+    }
+
+    .photo-banner {
         position: relative;
         left: 120px;
     }
