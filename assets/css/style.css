@@ -43,6 +43,7 @@ header {
     position: relative;
     top: 100px; 
     overflow: auto;
+    max-height: 750px;
 }
 
 #profile-photo {
@@ -188,6 +189,10 @@ row:after {
 
 .photo-banner:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+body {
+    overflow: hidden;
 }
 
 
