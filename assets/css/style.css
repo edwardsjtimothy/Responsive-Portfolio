@@ -42,7 +42,8 @@ header {
     box-shadow: 5px 10px #888888;
     position: relative;
     top: 100px; 
-    overflow: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
     max-height: 750px;
 }
 
@@ -195,7 +196,6 @@ body {
     overflow: hidden;
 }
 
-
 @media screen and (max-width: 980px) {
     body {
         max-width: 980px;
@@ -233,7 +233,6 @@ body {
     .container {
         max-width: 710px;
         margin-left: 10px;
-        overflow: hidden;
     }
 
     #name {
